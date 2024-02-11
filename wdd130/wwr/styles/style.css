@@ -1,0 +1,159 @@
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+   
+   
+}
+#background {
+    height: 725px;
+  
+}
+#hero-msg h1 {
+    text-align: center;
+    line-height: 1.5em
+}
+#hero-msg h4{
+    text-align: center;
+    line-height: 1.5em
+}
+#hero-img{
+    width:100%;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+body {
+    background-color: #fcfbfb; 
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    font-family: Raleway, Arial, sans-serif;
+}
+header {
+    background-color:rgba(20,30,13, .7);
+    font-family: Verdana, sans-serif;
+}
+footer{
+    background-color: rgba(20,30,13, .7);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    
+}
+footer a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    
+}
+footer p {
+    font-size: 1.2em;
+    padding-top: 15px;
+}  
+ footer p a:hover {
+    text-decoration: underline;
+    background-color:rgb(254, 254, 254);
+    color:rgb(0, 0, 0);
+    
+}    
+footer .social img {
+    padding-top: 15px;
+}
+nav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+   
+}  
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+.logo {
+    width: 80px;
+    padding-top: 5px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 35px;
+}   
+
+.book, .join {
+    background-color: rgba(240, 157, 112, 0.936); 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join{
+    margin-top: 100px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+.book:hover, .join:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
+#background{
+    background-color: rgba(20, 30, 13, 0.7);
+    color: rgb(99, 62, 62);
+}
+.msg{ /* More than Just the Thrill*/
+    background-color: rgba(20,30,13, .7);
+    color: rgb(255, 255, 255); 
+    font-family: Verdana, sans-serif;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+}
+
+ .home-title{ /* Have an Adventure */
+    background-color: rgb(255, 255, 255);
+    color: rgb(240, 157, 112); 
+    text-align: center;
+    font-family: 'Brush Script MT', cursive; 
+    font-size: 2em;
+    margin-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+h4{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.msg h2{
+    background-color: rgba(20,30,13,);
+    color: rgb(255, 255, 255); 
+    font-family: 'Brush Script MT', cursive;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 35px;
+}
+.msg p{
+    background-color: rgba(20,30,13,);
+    color: rgb(255, 255, 255); 
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
+
