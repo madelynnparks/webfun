@@ -52,8 +52,15 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
+  display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
 }
-
+div.gallery:nth-child(2) {
+  position: absolute; /* Set position to absolute */
+  right: 20px; /* Adjust the distance from the right side */
+}
 div.desc {
   padding: 15px;
   text-align: center;
