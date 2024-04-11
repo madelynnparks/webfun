@@ -1,40 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taylor Swift</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div id="home"></div>
-    <header>
-        <h1>Taylor Swift</h1>
-        <nav>
-            
-                <a href="index.html">Home</a>
-                <a href="site-plan.html">Site Plan</a>
-                <a href="erastour.html">Era</a>
-                <a href="taylorswift.html">TS</a>
-           
-        </nav>
-   
-    <footer>
-        <p>Taylor Swift &copy; 2024 - Madelynn Parks</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
+<div id="home"></div>
+<header>
+    <h1>Taylor Swift</h1>
+    
+    <nav>
+        
+            <a href="index.html">Home</a>
+            <a href="site-plan.html">Site Plan</a>
+            <a href="erastour.html">Era</a>
+            <a href="taylorswift.html">TS</a>
        
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
-    </div>
-    </footer>
+    </nav>
+    <div class="gallery"
+    <a target="_blank">  
+    <img src="images/on_house.jpeg" alt="Mountains" width="600" height="400">
+</a>
+<div class="desc">She's on the house!</div>
+</div>
+
+</header>
+
+
+
+<style>
+    div.gallery {
+  margin: 20px;
+  border: 3px solid #e66262ac;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  font-size: 30px;
+  margin: 0 10px; /* Adjust the horizontal margin as needed */
+  color: #333; /* Default color */
+  border: 8px solid #ffffff; /* Add border around each link */
+  padding: 5px 10px; /* Add padding to create space between text and border */
+  text-decoration: none; /* Remove underline from links */
+}
+nav a:nth-child(1) {
+  color: red; /* Change the color of the first link */
+}
+nav a:nth-child(2) {
+  color: blue; /* Change the color of the second link */
+}
+nav a:nth-child(3) {
+  color: green;}
+nav a:nth-child(4) {
+  color: orange;
+}
+
+</style>
+
+<body>
+
+<h1>Welcome to the Era Flags</h1>
+
 </body>
 </html>

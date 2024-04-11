@@ -1,110 +1,22 @@
 body {
-    font-family: Arial, sans-serif, Open Sans;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(218, 26, 26);
-}
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
 
-header {
-    background-color: rgba(20,30,13, .7);
-    font-family: Verdana, sans-serif;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-
-header h1 {
-    margin: 0;
-    color: #000000;
-}
-
-nav a:hover {
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
-    padding: 35px 25px;
-}
-
-nav {
-    display: inline;
-    margin-right: 20px;
-}
-nav a {
-    text-align: bottom;  /* Removed, not necessary */
-    color: #fcfbfb;
-    text-decoration: none;
-    padding: 35px 25px;
-    /* Added line to move text down within the link element */
-    line-height: 40px;
-}
-
-main {
-    padding: 20px;
-}
-
-.photo-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.photo {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: calc(50% - 40px); /* Adjusted width */
-    display: flex; /* Added */
-}
-
-.photo img {
-    width: 30%; /* Adjusted width */
-    border-radius: 5px;
-    margin-right: 20px; /* Added margin */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.photo h2 {
-    margin: 0;
-    color: #333;
-}
-
-.photo p {
-    color: #666;
-    flex: 1; /* Added */
-}
-
-footer {
-    background-color: rgba(20, 30, 13, 0.7);
-    color: rgb(255, 255, 255);
-    font-family: Verdana, sans-serif;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-footer p {
-    font-size: 1.2em;
-    padding-top: 15px;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-    background-color: rgb(254, 254, 254);
-    color: rgb(0, 0, 0);
-}
-
-footer .social img {
-    padding-top: 15px;
-}
+    header img {
+        border: 1px solid black;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        background-color: lightblue;
+    }
